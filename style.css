@@ -1,0 +1,158 @@
+title{
+    display: none;
+}
+
+h1{ 
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Helvetica;
+}
+
+/* Navigation */
+.navigation{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    color:#2F7976;
+    font-size: 30;
+    font-family: Helvetica;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-container{
+    height: 75px;
+    width: 100%;
+    background-color: #90B8B7;
+    transition: 0.2s;
+}
+
+.home{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.home:hover{
+    background-color: #2F7976;
+}
+
+.projects{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.projects:hover{
+    background-color: #2F7976;
+}
+
+.resume{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.resume:hover{
+    background-color: #2F7976;
+}
+
+
+/* Socials */
+.social-icon{
+    color: #FFFFFF;
+    transition: color 0.2s;
+    text-decoration:none;
+    margin: 0 10px;
+    padding-left: 30px;
+    font-size: 35px;
+
+    position: relative;
+    top: 20px;
+}
+
+.social-icon:hover{
+    color: #2F7976;
+}
+
+/* Image and Container*/
+
+img{
+    width: 300px;
+    height: auto;
+    margin: 60px;
+    margin-left: 200px;
+    border-radius: 40px;
+    float: left;
+}
+
+.body{
+    background-color: #DCE4E3;
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+
+    display: inline-block;
+    place-items: center;
+}
+
+
+
+/* Text */
+.text{
+    margin: 40px;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+}
+
+h3{
+    font-family: Helvetica;
+    color: #90B8B7;
+}
+h3:after{
+    display: table;
+    clear: both;
+}
+
+h1{
+    font-family: Helvetica;
+}
+
+
+.description{
+    font-family: Helvetica;
+    line-height: 25px;
+    margin-right: 200px;
+}
