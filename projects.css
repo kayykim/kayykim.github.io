@@ -1,0 +1,321 @@
+
+.expierence{
+    text-align: center;
+    font-family: Helvetica;
+    margin: 50px;
+}
+
+.main-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    justify-content: center;
+    font-family: Helvetica;
+
+    /* this is supposed to fill the width -- fix later */
+    display: inline-flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* SOLIDWORKS */
+.solidworks{
+    margin: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    background-color: #d0f1f1;
+    color: black;
+}
+.solidworks-text{
+    text-align: center;
+
+    z-index: 2;
+
+    position: absolute;
+    top: 15%;
+}
+
+.solidworks-text p{
+    opacity: 0;
+    padding: 10px;
+}
+.solidworks img{
+    object-fit: cover;
+    z-index: 1;
+    width: 100%;
+}
+.solidworks-img-container{
+    opacity: 30%;
+    width: 400px;
+    height: 350px;
+}
+
+.solidworks:hover{
+    background-color: black;
+}
+.solidworks:hover .solidworks-img-container{
+    opacity: 0;
+}
+.solidworks:hover .solidworks-text{
+    color: white;
+}
+.solidworks:hover .solidworks-text p{
+    opacity: 100%;
+}
+
+
+/* DESIGN TEAMS */
+.design-teams{
+    background-color: #d0f1f1;
+    color: black;
+    margin: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+.design-teams-text{
+    text-align: center;
+
+    z-index: 2;
+
+    position: absolute;
+    top: 10%;
+}
+
+.design-teams-text p{
+    opacity:0;
+    padding: 10px;
+}
+.design-teams img{
+    max-width: 100%;
+    
+    object-fit: cover;
+    z-index: 1;
+}
+.design-img-container{
+    opacity: 30%;
+    width: 400px;
+    height: 350px;
+}
+
+.design-teams:hover{
+    background-color: black;
+}
+.design-teams:hover{
+    background-color: black;
+}
+.design-teams:hover .design-img-container{
+    opacity: 0;
+}
+.design-teams:hover .design-teams-text{
+    color: white;
+}
+.design-teams:hover .design-teams-text p{
+    opacity: 100%;
+}
+
+/* PERSONAL */
+.personal{
+    background-color: #d0f1f1;
+    color: black;
+    margin: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+.personal-text{
+    text-align: center;
+
+    z-index: 2;
+
+    position: absolute;
+    top: 15%;
+}
+
+.personal-text p{
+    opacity:0;
+    padding: 10px;
+}
+.personal img{
+    max-height: 100%;
+    transform: translate(-150px, 0);
+    opacity: 40%;
+    
+    object-fit: cover;
+    z-index: 1;
+}
+.personal-img-container{
+    opacity: 30%;
+    width: 400px;
+    height: 350px;
+}
+
+.personal:hover{
+    background-color: black;
+}
+.personal:hover{
+    background-color: black;
+}
+.personal:hover .personal-img-container{
+    opacity: 0;
+}
+.personal:hover .personal-text{
+    color: white;
+}
+.personal:hover .personal-text p{
+    opacity: 100%;
+}
+
+/* TOYOTA */
+.toyota{
+    background-color: #d0f1f1;
+    color: black;
+    margin: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+.toyota-text{
+    text-align: center;
+
+    z-index: 2;
+
+    position: absolute;
+    top: 15%;
+}
+
+.toyota-text p{
+    opacity: 0;
+    padding: 10px;
+}
+.toyota img{
+    max-height: 100%;
+    opacity: 100%;
+    
+    object-fit: cover;
+    z-index: 1;
+}
+.toyota-img-container{
+    opacity: 30%;    
+    width: 400px;
+    height: 350px;
+}
+
+.toyota:hover{
+    background-color: black;
+}
+.toyota:hover{
+    background-color: black;
+}
+.toyota:hover .toyota-img-container{
+    opacity: 0;
+}
+.toyota:hover .toyota-text{
+    color: white;
+}
+.toyota:hover .toyota-text p{
+    opacity: 100%;
+}
+
+/* NAVIGATION BAR */
+.navigation-heading{ 
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Helvetica;
+}
+
+.navigation{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    color:#2F7976;
+    font-size: 30;
+    font-family: Helvetica;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-container{
+    height: 75px;
+    width: 100%;
+    background-color: #90B8B7;
+    transition: 0.2s;
+}
+
+.home{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+.home:hover{
+    background-color: #2F7976;
+}
+
+.projects{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+.projects:hover{
+    background-color: #2F7976;
+}
+
+.resume{
+    padding: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    background-color: #75a2a2;
+    border-radius: 15px;
+
+    transition: 0.2s;
+    display: inline;
+    
+    text-align: center;
+    text-decoration: none;
+}
+.resume:hover{
+    background-color: #2F7976;
+}
+
+.social-icon{
+    color: #FFFFFF;
+    transition: color 0.2s;
+    text-decoration:none;
+    margin: 0 10px;
+    padding-left: 30px;
+    font-size: 35px;
+
+    position: relative;
+    top: 20px;
+}
+.social-icon:hover{
+    color: #2F7976;
+}
