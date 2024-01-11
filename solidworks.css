@@ -1,0 +1,36 @@
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 50px;
+}
+.text{
+    font-family: Helvetica;
+    margin-left: 30px;
+    background-color: #d0f1f1;
+}
+
+.project-1{
+    margin: 30px;
+    display: inline-block;
+}
+.heading-1{
+    font-family: Helvetica;
+}
+
+.img-sketches{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.img-solid{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.img-final{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 30px;
+}
